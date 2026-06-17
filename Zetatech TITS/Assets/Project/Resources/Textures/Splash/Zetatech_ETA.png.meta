@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 6eb9058de3513db4884ea9c7bfacbb93
+guid: e7ae2ad8f5c72234faa8980a78648972
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5929843034259313529
-    second: false-hydra-tiny_0
+      213: 7204386476646718691
+    second: Zetatech_ETA_0
+  - first:
+      213: 4746037653250783218
+    second: Zetatech_ETA_1
+  - first:
+      213: -8196076179434223005
+    second: Zetatech_ETA_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,23 +145,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: false-hydra-tiny_0
+      name: Zetatech_ETA_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2000
-        height: 2600
+        x: 2617
+        y: 1496
+        width: 3409
+        height: 1210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78c26219d27f4bda0800000000000000
-      internalID: -5929843034259313529
+      spriteID: 3ecd72d745f1bf360800000000000000
+      internalID: 7204386476646718691
       vertices: []
       indices: 
       edges: []
@@ -164,7 +170,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f67f83fec66467a41a9242acd850283a
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +180,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      false-hydra-tiny_0: -5929843034259313529
+      Zetatech_ETA_0: 7204386476646718691
+      Zetatech_ETA_1: 4746037653250783218
+      Zetatech_ETA_2: -8196076179434223005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
