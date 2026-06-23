@@ -1,0 +1,99 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void Splash_Start_m610249255BF8ACA47A5DB2DD5BC26556A690DE02 (void);
+extern void Splash_splish_m0B6B18ED6897E59B30DEFB7435D77B9BF05C36CA (void);
+extern void Splash__ctor_m262D49D55CDE7F7271D07250C1D9B0498AE1B767 (void);
+extern void U3CsplishU3Ed__12__ctor_m6F3F0C214B43A7D6803D2DBBB130D4F1EFC05F75 (void);
+extern void U3CsplishU3Ed__12_System_IDisposable_Dispose_m377300FA070EECAB6EA751C6A62684BEB672A3A5 (void);
+extern void U3CsplishU3Ed__12_MoveNext_m9F5759DCD2DA99561AAFE4F05F14552D9E955DCE (void);
+extern void U3CsplishU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m619DF47512851C6C4AB4A9F59FA89650DB7086E1 (void);
+extern void U3CsplishU3Ed__12_System_Collections_IEnumerator_Reset_m82412D494168206165FF60E97FE932A3BD519324 (void);
+extern void U3CsplishU3Ed__12_System_Collections_IEnumerator_get_Current_m84C070A58C9232FF479077124D08E70742FED185 (void);
+extern void DontDestroy_get_Instance_m8D40861DDB5787B5FA11EB84BF6DC3EC354770D0 (void);
+extern void DontDestroy_set_Instance_m564BCCD5533E1015896A9DDC016CB21DA24D2D6F (void);
+extern void DontDestroy_Start_m3F8AF823C8C0F08037C3074A03B92C891C7EB5A3 (void);
+extern void DontDestroy__ctor_mFFA472546E2A8A3DEDECF67B6D6B24D8C55DD302 (void);
+extern void LensDistortionCorrectionProcessor_Initilize_m4BB856115F1ADED5600F34019AD72DAF4CFE29FF (void);
+extern void LensDistortionCorrectionProcessor_Process_m1272180298256E287F6DC6F4CEEFA588E0245B7F (void);
+extern void LensDistortionCorrectionProcessor__ctor_mEE45EA3430C7CDCF3E0E1D20C7FB3CD3CED92339 (void);
+extern void LensDistortionInputCorrector_Awake_mCA6D7AA2E57B2F9CB575C7B49241BB22218061A3 (void);
+extern void LensDistortionInputCorrector_F_m17BB17B991C4C947676C155E50039D003855D3EF (void);
+extern void LensDistortionInputCorrector__ctor_m1314E822BE7A1D55B5C52CD233C48D903D8B024B (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[21] = 
+{
+	Splash_Start_m610249255BF8ACA47A5DB2DD5BC26556A690DE02,
+	Splash_splish_m0B6B18ED6897E59B30DEFB7435D77B9BF05C36CA,
+	Splash__ctor_m262D49D55CDE7F7271D07250C1D9B0498AE1B767,
+	U3CsplishU3Ed__12__ctor_m6F3F0C214B43A7D6803D2DBBB130D4F1EFC05F75,
+	U3CsplishU3Ed__12_System_IDisposable_Dispose_m377300FA070EECAB6EA751C6A62684BEB672A3A5,
+	U3CsplishU3Ed__12_MoveNext_m9F5759DCD2DA99561AAFE4F05F14552D9E955DCE,
+	U3CsplishU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m619DF47512851C6C4AB4A9F59FA89650DB7086E1,
+	U3CsplishU3Ed__12_System_Collections_IEnumerator_Reset_m82412D494168206165FF60E97FE932A3BD519324,
+	U3CsplishU3Ed__12_System_Collections_IEnumerator_get_Current_m84C070A58C9232FF479077124D08E70742FED185,
+	DontDestroy_get_Instance_m8D40861DDB5787B5FA11EB84BF6DC3EC354770D0,
+	DontDestroy_set_Instance_m564BCCD5533E1015896A9DDC016CB21DA24D2D6F,
+	DontDestroy_Start_m3F8AF823C8C0F08037C3074A03B92C891C7EB5A3,
+	DontDestroy__ctor_mFFA472546E2A8A3DEDECF67B6D6B24D8C55DD302,
+	LensDistortionCorrectionProcessor_Initilize_m4BB856115F1ADED5600F34019AD72DAF4CFE29FF,
+	LensDistortionCorrectionProcessor_Process_m1272180298256E287F6DC6F4CEEFA588E0245B7F,
+	LensDistortionCorrectionProcessor__ctor_mEE45EA3430C7CDCF3E0E1D20C7FB3CD3CED92339,
+	LensDistortionInputCorrector_Awake_mCA6D7AA2E57B2F9CB575C7B49241BB22218061A3,
+	LensDistortionInputCorrector_F_m17BB17B991C4C947676C155E50039D003855D3EF,
+	LensDistortionInputCorrector__ctor_m1314E822BE7A1D55B5C52CD233C48D903D8B024B,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[21] = 
+{
+	15284,
+	15050,
+	15284,
+	11435,
+	15284,
+	14849,
+	15050,
+	15284,
+	15050,
+	26823,
+	25623,
+	15284,
+	15284,
+	26923,
+	4377,
+	15284,
+	15284,
+	25206,
+	15284,
+	26949,
+	15284,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	21,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

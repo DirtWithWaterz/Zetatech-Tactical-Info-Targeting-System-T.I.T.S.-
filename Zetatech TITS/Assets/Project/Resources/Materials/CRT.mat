@@ -38,10 +38,25 @@ Material:
     m_Ints: []
     m_Floats:
     - _Blur_Offset: 0
+    - _Brightness: 1.5
+    - _CRTScreenWarp: 0
+    - _DistortionStrength: 0.05
+    - _EdgeRadius: 0
+    - _EdgeWidth: 0.78
+    - _InvertUV_Y_Axis: 0
+    - _Invert_UV_Y_Axis: 0
+    - _RGBResolution: 256
     - _RGB_Strength: 0.5
+    - _RandomizeWarplines: 1
+    - _ScanlineDensity: 200
+    - _ScanlineSpeed: 0.05
     - _Scanline_Density: 172
-    - _Scanline_Speed: 0.01
+    - _Scanline_Speed: 1
+    - _StaticStrength: 0.005
+    - _WarplineDensity: 1.5
+    - _WarplineSpeed: 0.5
     m_Colors:
+    - _CRTWarpStrength: {r: 1, g: 1, b: 0, a: 0}
     - _Color: {r: 3.9999998, g: 3.9999998, b: 3.9999998, a: 1}
     - _Mask_Scale: {r: 313, g: 405, b: 0, a: 0}
   m_BuildTextureStacks: []
