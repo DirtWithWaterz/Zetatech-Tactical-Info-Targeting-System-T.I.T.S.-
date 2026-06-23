@@ -456,6 +456,7 @@ GameObject:
   - component: {fileID: 460915186}
   - component: {fileID: 460915185}
   - component: {fileID: 460915184}
+  - component: {fileID: 460915187}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -524,6 +525,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &460915187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460915183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6c9e1e99b1b634da254c26b67b9ea4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LensDistortionInputCorrector
+  intensity: 0.34
+  xMult: 1
+  yMult: 1
+  center: {x: 0.5, y: 0.5}
+  scale: 1.1
 --- !u!1 &741283083
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1202,7 @@ GameObject:
   - component: {fileID: 1320610417}
   - component: {fileID: 1320610418}
   - component: {fileID: 1320610419}
+  - component: {fileID: 1320610420}
   m_Layer: 0
   m_Name: Volume
   m_TagString: Untagged
@@ -1235,6 +1254,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78d997300b0783d49b764e1057175c8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DontDestroy
+--- !u!114 &1320610420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320610416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4943055152d0f4091760f385329782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Fading
+  fadeOutTexture: {fileID: 2800000, guid: bfeb020865986aa40ae1ea8d8ac9eb56, type: 3}
+  fadeSpeed: 2
+  alpha: 0
+  retroMat: {fileID: 2100000, guid: 967b6ea0b673b0347afe24b2ed7cf55d, type: 2}
 --- !u!1 &1530045803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1611,7 +1646,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 1
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1

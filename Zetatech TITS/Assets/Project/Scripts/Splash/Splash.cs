@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Splash : MonoBehaviour
 {
@@ -61,6 +62,10 @@ public class Splash : MonoBehaviour
 
         eta.localPosition = etaFinish;
 
-        
+        yield return new WaitForSeconds(1f);
+        float yield = FindFirstObjectByType<Fading>().BeginFade(1);
+
+        yield return new WaitForSeconds(yield);
+        SceneManager.LoadScene("Main");
     }
 }

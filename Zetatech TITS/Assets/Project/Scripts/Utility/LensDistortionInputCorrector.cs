@@ -8,11 +8,11 @@ public class LensDistortionInputCorrector : MonoBehaviour
 {
     [Header("Lens Distortion Settings")]
     [Tooltip("Match these settings exactly with the Lens Distortion Volume.")]
-    public float intensity;
+    public float intensity = 0.34f;
     public float xMult = 1f;
     public float yMult = 1f;
     public Vector2 center = new Vector2(0.5f,0.5f);
-    public float scale = 1f;
+    public float scale = 1.1f;
 
     void Awake()
     {

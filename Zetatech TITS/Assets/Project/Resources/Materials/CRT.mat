@@ -48,12 +48,13 @@ Material:
     - _RGBResolution: 256
     - _RGB_Strength: 0.5
     - _RandomizeWarplines: 1
-    - _ScanlineDensity: 200
-    - _ScanlineSpeed: 0.05
+    - _ScanlineDensity: 172
+    - _ScanlineSpeed: 1
     - _Scanline_Density: 172
     - _Scanline_Speed: 1
     - _StaticStrength: 0.005
     - _WarplineDensity: 1.5
+    - _WarplineDivisor: 50
     - _WarplineSpeed: 0.5
     m_Colors:
     - _CRTWarpStrength: {r: 1, g: 1, b: 0, a: 0}

@@ -9,7 +9,7 @@ using UnityEditor;
 public class LensDistortionCorrectionProcessor : InputProcessor<Vector2>
 {
     [Tooltip("Match this exactly with the Lens Distortion Volume's Intensity.")]
-    public float intensity = 0f;
+    public float intensity = 0.34f;
 
     [Tooltip("Match this exactly with the Lens Distortion Volume's X Multiplier.")]
     public float xMult = 1f;
@@ -24,7 +24,7 @@ public class LensDistortionCorrectionProcessor : InputProcessor<Vector2>
     public float centerY = 0.5f;
 
     [Tooltip("Match this exactly with the Lens Distortion Volume's Scale (default 1).")]
-    public float scale = 1f;
+    public float scale = 1.1f;
 
     const float HALF_MIN = 6.103515625e-5f;
 
